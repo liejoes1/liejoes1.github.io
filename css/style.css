@@ -1,0 +1,22 @@
+:root {
+    --header-bg-color: #212121 ;
+    --header-height: 50%;
+    --header-margin: 10%;
+    --header-padding: 10px;
+}
+
+body {
+    color: white;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace
+}
+body .header {
+    height: var(--header-height);
+    margin: var(--header-margin);
+    padding: var(--header-padding);
+    background-color: var(--header-bg-color);
+    align-content: center;
+    text-align: center;
+}
+
+
